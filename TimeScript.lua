@@ -1,5 +1,6 @@
 function UpdateOffsets()
     local cities = {
+        {tz = "America/Vancouver", var = "OffVan"},
         {tz = "America/Edmonton", var = "OffCal"},
         {tz = "America/Toronto", var = "OffTor"},
         {tz = "Etc/UTC", var = "OffUTC"},
